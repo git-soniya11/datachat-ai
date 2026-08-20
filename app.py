@@ -1,4 +1,4 @@
-git status
+
 import html
 import base64
 from typing import Any
