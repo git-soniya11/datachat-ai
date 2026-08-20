@@ -1,0 +1,26 @@
+.env
+.env.*
+!.env.example
+
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+uploads/*
+exports/charts/*
+
+.vscode/
+.idea/
+
+.streamlit/secrets.toml
+# Local datasets
+*.csv
+*.xlsx
+*:Zone.Identifier
+
+# Logs
+*.log
+
+# Notebooks
+*.ipynb
