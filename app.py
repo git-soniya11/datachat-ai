@@ -9,6 +9,7 @@ import requests
 import streamlit as st
 
 
+
 # ============================================================
 # PAGE CONFIG
 # ============================================================
@@ -26,11 +27,19 @@ st.set_page_config(
 # ============================================================
 
 # FastAPI is running with prefix="/api"
-BACKEND_ROOT_URL = "http://127.0.0.1:8000"
+# BACKEND_ROOT_URL = "http://127.0.0.1:8000"
+# BACKEND_URL = f"{BACKEND_ROOT_URL}/api"
+
+
+import os
+
+BACKEND_ROOT_URL = os.getenv(
+    "BACKEND_ROOT_URL",
+    "http://127.0.0.1:8000"
+)
+
 BACKEND_URL = f"{BACKEND_ROOT_URL}/api"
-
 REQUEST_TIMEOUT = 180
-
 
 # ============================================================
 # SESSION STATE
