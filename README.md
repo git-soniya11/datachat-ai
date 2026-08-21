@@ -6,12 +6,24 @@ DataChat AI is a conversational data analytics application that allows users to 
 
 ---
 
+## 🌐 Live Demo
+
+**Frontend — Streamlit**
+`your-app-name.streamlit.app`
+
+**Backend — Render**
+https://datachat-ai-backend.onrender.com
+
+> The Streamlit frontend is deployed separately and communicates with the FastAPI backend hosted on Render.
+
+---
+
 ## ✨ Features
 
 * 📂 Upload CSV / Excel datasets
 * 👀 Preview uploaded data
 * 💬 Ask questions using natural language
-* 📊 Perform AI-powered data analysis
+* 📊 AI-powered data analysis
 * 📈 Generate visualizations
 * ⚡ FastAPI REST backend
 * 🤖 Google Gemini integration
@@ -114,7 +126,7 @@ cd datachat-ai
 python -m venv venv
 ```
 
-Activate it and install dependencies:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -128,7 +140,6 @@ Create a `.env` file:
 APIKEY=your_gemini_api_key
 MODEL=your_model
 ```
-
 
 
 ### 4. Run the application
@@ -156,5 +167,12 @@ streamlit run frontend/app.py
 * Multi-model LLM support
 * Cloud deployment
 
+---
+
+## 👩‍💻 Author
+
+**Soniya**
+Computer Science & Engineering
 
 ⭐ If you find this project useful, consider starring the repository.
+
