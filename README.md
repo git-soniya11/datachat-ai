@@ -9,7 +9,7 @@ DataChat AI is a conversational data analytics application that allows users to 
 ## 🌐 Live Demo
 
 **Frontend — Streamlit**
-`your-app-name.streamlit.app`
+https://datachat1-ai.streamlit.app/
 
 **Backend — Render**
 https://datachat-ai-backend.onrender.com
