@@ -3,8 +3,8 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 
-from backend.file_routes import router as file_router
-from backend.chat_routes import router as chat_router
+from file_routes import router as file_router
+from chat_routes import router as chat_router
 
 
 app = FastAPI(title="DataChat backend")
